@@ -20,7 +20,7 @@
 - 해당 날짜의 일기를 List 형태로 반환해주세요.
 
 ✅ GET / read / diaries
-- startDate, ednDate parameter 로 조회할 날짜 기간의 시작일/종료일을 받아주세요.
+- startDate, endDate parameter 로 조회할 날짜 기간의 시작일/종료일을 받아주세요.
 - 해당 기간의 일기를 List 형태로 반환해주세요.
 
 ✅ PUT / update / diary
