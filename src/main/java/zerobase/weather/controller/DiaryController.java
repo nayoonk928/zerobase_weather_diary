@@ -5,7 +5,6 @@ import io.swagger.annotations.ApiParam;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.*;
 import zerobase.weather.domain.Diary;
-import zerobase.weather.error.InvalidDate;
 import zerobase.weather.service.DiaryService;
 
 import java.time.LocalDate;
@@ -37,10 +36,6 @@ public class DiaryController {
             @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
             @ApiParam(value = "조회할 날짜", example = "2020-02-02") LocalDate date
     ) {
-//        if (date.isAfter(LocalDate.ofYearDay(2023, 1))) {
-//            throw new InvalidDate();
-//        }
-
         return diaryService.readDiary(date);
     }
 
