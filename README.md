@@ -8,6 +8,13 @@
 - JPA 방식으로 MySQL 사용하기
 
 # 👩‍💻 Tech Stack
+Language: Java
+
+Tools: IntelliJ Ultimate
+
+Framework/Library: Spring boot 2.6.4
+
+DataBase: MySql
 
 # 🗒️ Requirements
 ✅ POST / create / diary
